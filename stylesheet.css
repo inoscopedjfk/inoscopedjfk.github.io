@@ -15,7 +15,7 @@
 	font-size: 2em;
 	margin: 2.1em 0 0 1.5em;
 }
-#header h2 img { 
+#header h2 img {
 	width: 20em;
 	height: 1.5em;
 }
@@ -30,11 +30,11 @@ ul#menu li {
 	text-transform: uppercase;
 	display: inline;
 }
-ul#menu li a {
+ul#menu li p {
 	color: #c3c9ca;
 	/* padding: 0.667em; */
 	padding: 1em;
 }
-ul#menu li a:hover {
+ul#menu li p:hover {
 	color: #fff;
 }
