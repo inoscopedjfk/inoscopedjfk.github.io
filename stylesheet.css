@@ -1,40 +1,20 @@
-#container {
-	width: 99.6em;
-	margin: 0 auto;
-	text-align: left;
+html {
+  background: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTdc3WGcnRu0Q0P7v5uTd5j0FCuMsxJP77TsiuMbIh3eHf32MzYMw) no-repeat center center fixed;
+   background-size:100% 100%;
 }
-#header {
-	background: url(images/bg_header.jpg) center top repeat-x;
-	width: 98em;
-	height: 16em;
-}
-#header h1 {
-	display: none;
-}
-#header h2 {
-	font-size: 2em;
-	margin: 2.1em 0 0 1.5em;
-}
-#header h2 img {
-	width: 20em;
-	height: 1.5em;
-}
-ul#menu {
-	background: #2c4357;
-	margin: 0 auto;
+
+#name{
+	font-family: Arial;
+	font-size: 3em;
 	text-align: center;
-	padding: 1.4em 0;
+	padding-top: 75px;
 }
-ul#menu li {
-	font: bold 1.2em Georgia, "Times New Roman", Times, serif;
-	text-transform: uppercase;
-	display: inline;
+
+a:link{
+  color:white;
+  text-decoration:none;
 }
-ul#menu li p {
-	color: #c3c9ca;
-	/* padding: 0.667em; */
-	padding: 1em;
-}
-ul#menu li p:hover {
-	color: #fff;
+
+a:hover{
+  text-decoration:underline;
 }
