@@ -47,7 +47,15 @@ li {
 	font-family: Arial;
   font-weight: bold;
 	color: #ffffff;
-	padding: 5px;
-	border-radius: 5px 5px;
-	background-color: #000000
+	padding: 15px 30px;
+	border-radius: 10px 10px;
+	background-color: #000000;
+  text-align:center
+}
+
+#content{
+	position: relative;
+	top: -10px;
+	background-color: gray;
+  color: black;
 }
