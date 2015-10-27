@@ -1,116 +1,43 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-    <title>Webpage - WIP</title>
-  </head>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
 
-  <body>
-        <div id="name">
-            <strong><a href="index.html">John</a></strong>
-        </div>
-        <div id="header">
-		<div id="navbar">
-			<ul>
-				<li><a>Home</a></li>
-				<li><a>Projects</a></li>
-				<li><a>Contact</a></li>
-			</ul>
+<title>Home</title>
+
+<link rel="stylesheet" href="stylesheet.css" type="text/css" />
+
+</head>
+
+<body>
+<div id="container">
+
+	<div id="header">
+		<h1>Death Note</h1>
+		<ul id="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="story.html">Story</a></li>
+			<li><a href="rules.html">Review</a></li>
+					</ul>
+		<h2><p>Home</p></h2>
+	</div>
+	<div class="mainwrap colleft">
+		<div class="main">
+			<div class="copy">
+
+				<div class="post" id="post-6">
+		<!-- <h3>Story</h3> -->
+			<div class="entry">
+				<p><img src="images/Cover.png" class="icon left" />
+					Each chapter of the book has artwork from the original creator of the Death Note series. This cover is full of symbolism about the novel. The one on the left would be Ryuzaki, the “unprivate” detective, and on the other hand would be Naomi Misora. They are separated by a link of eyeballs almost as if to say they are being “watched” by B. The font of the letter B also corresponds to L’s symbol. The eyeballs also show that B possesses the Shinigami eyes in which he can see the person’s name and lifespan just by looking at them. It is unknown how he obtained these eyes, but B was supposedly born with them. Not only that, the second victim’s eyeballs were smashed which was also part of the clues that the murderer left behind. The three crosses that go up from the skeleton also represent the three victims. The letters D L M I X V C on the bottom are roman numerals, which were found in the first crime scene. These appeared to be random slash marks on the body, but those “random” marks are actually roman numerals that says a certain message. Back to the skeleton part, the linked eyeballs also represent something like a stairwell, meaning that even after death B will still be on top.</p>
+			</div>
 		</div>
-		<h2>About me</h2>
-         <div id="content">
-      <p>if ((parseInt(parseFloat(lev_c + end_lev_c)) - parseInt(parseFloat(lev_c + start_lev_c)) + 1) != no_of_lines) {
-            alert("get a calculator!!");
-            return false;
-         }
 
-         if ((end_lev - start_lev + 1) != no_of_lines) {
-            alert("get a calculator!!");
-            return false;
-         }
+			</div>
+		<div class="clear"></div>
+		</div>
+	</div>
 
-         var out = "";
-         var range = [];
-         range[0] = parseInt(parseFloat(lev_c + start_lev_c));
-         while (range.length < no_of_lines) {
-            range[range.length] = range[range.length - 1] + 1;
-         }
-
-         var range_c = [];
-         for (var l = 0; l < range.length; l++) {
-            range_c[l] = range[l] + '';
-         }
-
-         var range_c_t = [];
-         var assigned_line = 0;
-         while (assigned_line < no_of_lines) {
-            if (range_c[assigned_line].substring(range_c[assigned_line].length - 1) != "0") {
-               range_c_t[range_c_t.length] = range_c[assigned_line];
-               assigned_line++;
-               continue;
-            } else {
-               if ((no_of_lines - assigned_line) >= 10) {
-                  range_c_t[range_c_t.length] = range_c[assigned_line].substring(0, range_c[assigned_line].length - 1) + "X";
-                  assigned_line += 10;
-                  continue;
-               } else {
-                  range_c_t[range_c_t.length] = range_c[assigned_line];
-                  assigned_line++;
-                  continue;
-               }
-            }
-         }
-         range_c = range_c_t;
-
-         var filter;
-         for (var l = 0; l < range_c.length; l++) {
-            filter = range_c[l].indexOf("X");
-            if (filter != -1)
-               break;
-         }
-
-         var X = "";
-         for (var mm = 0; mm < range_c.length; mm++)
-            out += "<br />" + range_c[mm];
-         out += "<br />";*/
-         for (var l = filter; l >= 0; l--) {
-            X += "X";
-            range_c_t = [];
-            var loop = 0;
-            while (loop < range_c.length) {
-               if (range_c[loop].indexOf(X) == -1) {
-                  range_c_t[range_c_t.length] = range_c[loop];
-                  loop++;
-                  continue;
-               } else {
-                  out += "<br />range_c[loop].substring(0, l - 1) = " + range_c[loop].substring(0, l - 1);
-                  if (((loop + 9) < range_c.length))
-                     var ****** = range_c[loop + 9].substring(0, l - 1);
-                  else
-                     var ****** = "******!! miss it!!";
-                  out += "<br />range_c[loop + 9].substring(0, l - 1) = " + ******;
-                  out += "<br />range_c[loop].substring(l, 1) = " + range_c[loop].substring(l, l + 1) + "<br />";*/
-                  if (((loop + 9) < range_c.length) && (range_c[loop].substring(0, l - 1) == range_c[loop + 9].substring(0, l - 1))
-                      && (range_c[loop].substring(l, l + 1) == "X") && (range_c[loop + 9].substring(l, l + 1) == "X")) {
-                     range_c_t[range_c_t.length] = range_c[loop].substring(0, l - 1) + X + "X";
-                     loop += 10;
-                     continue;
-                  } else {
-                     range_c_t[range_c_t.length] = range_c[loop];
-                     loop++;
-                     continue;
-                  }
-               }
-            }
-            range_c = range_c_t;
-         }
-
-         for (var l = 0; l < range_c.length; l++)
-            out += "<br />arr[" + l + "] => "+ range_c[l];
-      </p>
-        </div>
-	  </div>
-  </body>
-
+</div>
+</body>
 </html>
