@@ -181,9 +181,6 @@ a:hover.button {
 }
 
 /* RULES */
-.main .copy ul.rules {
-	/* font: italic 1.4em Georgia, "Times New Roman", Times, serif; */
-}
 .main .copy ul.rules li {
 	margin-bottom: 1.2em;
 }
