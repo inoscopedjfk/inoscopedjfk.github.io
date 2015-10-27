@@ -47,6 +47,11 @@ a:hover {
 	width: 98em;
 	height: 16em;
 }
+#header {
+	background: url(images/bg_header.jpg) center top repeat-x;
+	width: 98em;
+	height: 16em;
+}
 #header h1 {
 	display: none;
 }
