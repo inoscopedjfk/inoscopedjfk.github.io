@@ -40,7 +40,7 @@ a:hover {
 	text-align: left;
 }
 #container p {
-	font-size:14px;
+	font-size:18px;
 }
 #header {
 	background: url(images/bg_header.jpg) center top repeat-x;
@@ -59,7 +59,7 @@ a:hover {
 	font-size: 2em;
 	margin: 2.1em 0 0 1.5em;
 }
-#header h2 img { /* ie fix */
+#header h2 img {
 	width: 20em;
 	height: 1.5em;
 }
@@ -118,10 +118,9 @@ a:hover {
 }
 .main .copy a {
 	color: #000;
-	/* text-decoration: underline; */
 }
 .main .copy a:hover {
-	/* text-decoration: none; */
+
 }
 .main .copy ul li {
 	list-style: square outside;
@@ -152,7 +151,6 @@ ul#menu li {
 }
 ul#menu li a {
 	color: #c3c9ca;
-	/* padding: 0.667em; */
 	padding: 1em;
 }
 ul#menu li a:hover {
@@ -191,4 +189,9 @@ a:hover.button {
 /* RULES */
 .main .copy ul.rules li {
 	margin-bottom: 1.2em;
+	font-size:18px
+}
+.iconleft {
+	width:650px;
+	height:700px
 }
