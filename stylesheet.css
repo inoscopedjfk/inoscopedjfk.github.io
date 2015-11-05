@@ -7,8 +7,8 @@ html {
 	color: #fff;
 }
 body {
-	background: url(/h2_story.png) center top no-repeat;
-	font-size: 62.5%; /* 1px = 0.1em */
+	background: center top no-repeat;
+	font-size: 62.5%;
 	font-family: Verdana, sans-serif;
 }
 a {
@@ -32,8 +32,6 @@ a:hover {
 .clear {
 	clear: both;
 }
-
-/* PAGE STRUCTURE */
 #container {
 	width: 99.6em;
 	margin: 0 auto;
@@ -71,11 +69,7 @@ a:hover {
 	float: left;
 }
 .mainwrap.colleft {
-	width: 85em;
-}
-.mainwrap.colright {
-	margin-left: 1.6em;
-	width: 281px;
+	width: 96.5em;
 }
 .main {
 	background: #c3c9ca url(images/bg_main.jpg);
@@ -92,19 +86,6 @@ a:hover {
 }
 .main .copy h3 {
 	font: 2.4em Georgia, "Times New Roman", Times, serif;
-	color: #000;
-	padding-top: 0.5em;
-	margin: 0 0 0.1em 0;
-}
-.main .copy h3.highlight {
-	font-size: 4.8em;
-	font-style: italic;
-	margin-top: -0.5em;
-	padding: 0 0 0.4em 0;
-	border-bottom: 0.01em solid #2c4357;
-}
-.main .copy h4 {
-	font: 2em Georgia, "Times New Roman", Times, serif;
 	color: #000;
 	padding-top: 0.5em;
 	margin: 0 0 0.1em 0;
@@ -130,14 +111,6 @@ a:hover {
 	list-style: decimal inside;
 	margin: 0.3em 0;
 }
-.sealed {
-	border-top: 0.1em solid #44657d;
-	border-bottom: 0.1em solid #44657d;
-}
-.main .profile {
-	margin-left: 41em;
-	padding: 0 0 1.8em 0;
-}
 ul#menu {
 	background: #2c4357;
 	margin: 0 auto;
@@ -155,43 +128,4 @@ ul#menu li a {
 }
 ul#menu li a:hover {
 	color: #fff;
-}
-
-/* BUTTONS */
-.main .copy .buttontext {
-	font: bold 10px/20px Verdana, sans-serif;
-	background: #44657d url(images/bt_plain2.gif) left top no-repeat;
-	color: #ffffff;
-	text-align: center;
-	display: block;
-	width: 100px;
-	height: 21px;
-	text-decoration: none;
-	margin: 0.4em 0;
-}
-.main .copy a:hover.buttontext {
-	background-position: 0 -21px;
-}
-.button {
-	width: 100px;
-	height: 21px;
-	display: block;
-	float: left;
-	margin: 1.1em 1em 0.2em 0;
-}
-a:hover.button {
-	background-position: 0 -21px;
-}
-.button span {
-	display: none;
-}
-
-/* RULES */
-.main .copy ul.rules li {
-	margin-bottom: 1.2em;
-	font-size:18px
-}
-.iconleft {
-	width:650px;
-	height:700px
 }
