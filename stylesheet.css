@@ -18,20 +18,6 @@ a {
 a:hover {
 	text-decoration: underline;
 }
-.center {
-	text-align: center;
-}
-.left {
-	float: left;
-	margin: 0 2em 1em 0;
-}
-.right {
-	float: right;
-	margin: 0 0 1em 2em;
-}
-.clear {
-	clear: both;
-}
 #container {
 	width: 99.6em;
 	margin: 0 auto;
